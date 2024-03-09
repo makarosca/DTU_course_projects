@@ -11,12 +11,13 @@ in read_filename() make it possible for as many files to be added as we want
 import sys
 import gzip
 
-def read_filename():		
+def read_filename():
 	# read the filename
 	if len(sys.argv) == 3:
 		f1 = sys.argv[-2]
 		f2 = sys.argv[-1]
 	else:
+		print("You can also run the script this way: python ngs_process.py <filename1> <filename2>")
 		f1 = input('Enter <filename>: ')
 		f2 = input('Enter another <filename>: ')
 	filenames = [f1, f2]
@@ -138,8 +139,9 @@ if __name__ == "__main__":
 
 	k = 19 #setting the k-mer length
 	#NGS data files
-	#filenames = read_filename()
-	filenames = ["Unknown3_raw_reads_1.txt.gz", "Unknown3_raw_reads_2.txt.gz"]
+	filenames = read_filename()
+
+	#filenames = ["Unknown3_raw_reads_1.txt.gz", "Unknown3_raw_reads_2.txt.gz"]
 
 	###processing resistance genes
 	#Obtaining lists of resistance gene sequences and names

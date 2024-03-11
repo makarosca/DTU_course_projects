@@ -1,5 +1,5 @@
 # NGS_AMR_detection
-A python script for NGS raw data processing and detection of the AMR genes.
+Alignment of raw NGS data to a list of genes encoding the resistance to antibiotics. Identification of the genes which are present in the sequenced sample
 
 To learn more about the project and the algorithms used in the script, please read the project report. This project was implemented as a part of the DTU course 22110 Python and Unix for Bioinformaticians. As a requirement, no additional python libraries could be used besides os, sys, gzip.
 

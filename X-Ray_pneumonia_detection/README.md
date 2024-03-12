@@ -1,4 +1,4 @@
-#X-Ray Pneumonia detection
+# X-Ray Pneumonia Detection
 
 CNN classification model that is trained on X-Ray images of chest, and predicts whether a given X-Ray image shows a case of pneumonia. Written in PyTorch.
 

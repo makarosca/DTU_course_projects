@@ -1,10 +1,13 @@
-# NGS_AMR_detection
-Alignment of raw NGS data to a list of genes encoding the resistance to antibiotics. Identification of the genes which are present in the sequenced sample
+# RNA expression project
+Training machine learning models on RNA expression dataset with the scope of identifying the best performing model.
 
-To learn more about the project and the algorithms used in the script, please read the project report. This project was implemented as a part of the DTU course 22110 Python and Unix for Bioinformaticians. As a requirement, no additional python libraries could be used besides os, sys, gzip.
+The dataset used in this project is an RNA-Seq dataset samples from several different kinds of cancer: BRCA, KIRC, COAD, LUAD and PRAD. It has 801 samples, each having values for 20531 genes. (801 rows, 20531 columns)
 
-The NGS data samples can be downloaded through the links below and should be put in the same directory as the script. If the links don't work, contact me at vrosca.aa@gmail.com
+This project consists of comparing two pairs of models:
+1) Two classfication models for determination of cancer class based on the gene expression values: the multinomial logistic regression vs simple neural network.
+2) Two regression models for predicting of a gene expression value based on the other gene expression values: the linear regression vs simple neural network.
 
-https://teaching.healthtech.dtu.dk/material/36610/Unknown3_raw_reads_1.txt.gz
-https://teaching.healthtech.dtu.dk/material/36610/Unknown3_raw_reads_2.txt.gz
-https://teaching.healthtech.dtu.dk/material/36610/resistance_genes.fsa
+For the more detailed description of the project, please read the project report.
+
+The data can be downloaded here:
+https://archive.ics.uci.edu/dataset/401/gene+expression+cancer+rna+seq

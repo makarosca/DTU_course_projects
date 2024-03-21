@@ -7,7 +7,7 @@ This project consists of comparing two pairs of models:
 1) Two classfication models for determination of cancer class based on the gene expression values: the multinomial logistic regression vs simple neural network.
 2) Two regression models for predicting of a gene expression value based on the other gene expression values: the linear regression vs simple neural network.
 
-For the more detailed description of the project, please read the project report.
+For the more detailed description of the project, please read the project report `Machine_Learning_Project_2.pdf`.
 
 The data can be downloaded here:
 https://archive.ics.uci.edu/dataset/401/gene+expression+cancer+rna+seq
